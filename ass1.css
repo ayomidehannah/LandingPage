@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+body{
+  background-image: url(https://img.freepik.com/free-vector/street-miami-with-hotels-palm-trees_107791-2509.jpg?size=626&ext=jpg&ga=GA1.2.117922811.1692183163&semt=ais);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar{
+  background-color: white;
+  margin: 0;
+  height: 70px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.link{
+  color: rgb(51, 49, 49);
+  margin: 5px;
+  text-align: center;
+  margin-left: 30px;
+  text-decoration: none;
+  padding: 10px 0;
+    
+}
+.button{
+  text-align: right;
+  color: white;
+  background-color: rgb(180, 63, 243);
+  padding: 10px;
+  border-style: none;
+  border-radius: 10px;
+  
+}
+
+.center-text{
+ width: 100%;
+ position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
+ text-align: center;
+
+}
+
+.build-text{
+  font-size: 60px;
+  color: rgb(29, 12, 45);
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  
+  
+}
+
+.french-text{
+  font-size: medium;
+  color: rgb(29, 12, 45);
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.request-button{
+  text-align: right;
+  color: white;
+  background-color: rgb(180, 63, 243);
+  padding: 10px;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.the-whole-thing{
+  background-color: blueviolet;
+}
